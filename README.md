@@ -27,6 +27,14 @@ Add to your application.js
  
     //= require flat-ui
 
+## Overriding Defaults
+
+You can override the default variables by using the SASS import directive:
+
+    $success: blue
+
+    @import flat-ui
+
 ## Contributing
 
 1. Fork it
